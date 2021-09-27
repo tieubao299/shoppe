@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./access/css/base.css">
+    <link rel="stylesheet" href="./access/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="access/fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+
+                <nav class="header__navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-item-hoverqr navbar-item navbar-item-bo">vào cửa hàng trên ứng dụng bao boi
+                            <div class="header_qr">
+                                <img src="./access/img/qrcode.png" alt="QR_code" class="qr-img">
+                                <div class="header_qr-apps">
+                                    <img src="./access/img/appstore.png" alt="appstore" class="app-img1">
+                                    <img src="./access/img/ggpl.png" alt="googleplays" class="app-img2">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar-item">
+                            <span class="navbar-item-notitle">kết nối</span>
+                            <a href="" class="navbar-item-snsicon">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="" class="navbar-item-snsicon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-list">
+                        <li class="navbar-item navbar-item-hasnotify"><a href="#" class="item-link">
+                            <i class="far fa-bell"></i>
+                            thông báo</a>
+                        <div class="header__notify">
+                            <header class="notify-header"><h3>Thong Bao Moi Nhan</h3></header>
+                            <ul class="notify-list">
+                                <li class="notify-item">
+                                    <a href="" class="notify-link">
+                                        <img src="./access/img/my-pham-cc-white-co-tot-khong.jpg" alt="mi pham cc" class="notify-img">
+                                        <div class="notify-info"><span class="notify-name">my pham cc nhat ban chinh hang</span>
+                                        <span class="notify-desrcoration">mo ta mi pham cc chinh hang </span></div>
+                                    </a>
+                                </li>
+                            </ul><ul class="notify-list">
+                                <li class="notify-item">
+                                    <a href="" class="notify-link">
+                                        <img src="./access/img/my-pham-cc-white-co-tot-khong.jpg" alt="mi pham cc" class="notify-img">
+                                        <div class="notify-info"><span class="notify-name">my pham cc nhat ban chinh hang</span>
+                                        <span class="notify-desrcoration">mo ta mi pham cc chinh hang </span></div>
+                                    </a>
+                                </li>
+                            </ul><ul class="notify-list">
+                                <li class="notify-item">
+                                    <a href="" class="notify-link">
+                                        <img src="./access/img/my-pham-cc-white-co-tot-khong.jpg" alt="mi pham cc" class="notify-img">
+                                        <div class="notify-info"><span class="notify-name">my pham cc nhat ban chinh hang</span>
+                                        <span class="notify-desrcoration">mo ta mi pham cc chinh hang </span></div>
+                                    </a>
+                                </li>
+                            </ul><ul class="notify-list">
+                                <li class="notify-item">
+                                    <a href="" class="notify-link">
+                                        <img src="./access/img/my-pham-cc-white-co-tot-khong.jpg" alt="mi pham cc" class="notify-img">
+                                        <div class="notify-info"><span class="notify-name">my pham cc nhat ban chinh hang</span>
+                                        <span class="notify-desrcoration">mo ta mi pham cc chinh hang </span></div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <footer class="notify-footer">
+                                <a href="" class="notify-footer-btn">xem tat ca</a>
+                            </footer>
+                        </div></li>
+                        <li class="navbar-item"><a href="#" class="item-link">
+                            <i class="far fa-question-circle"></i>
+                            trợ giúp</a></li>
+                        <li class="navbar-item navbar-item--strong navbar-item-bo">đăng kí</li>
+                        <li class="navbar-item navbar-item--strong">đăng nhập</li>
+                    </ul>
+                  
+                </nav>
+                <!-- header search -->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <img src="./access/img/logo-full-white.txt" class="header__logo-img" alt="">
+                    </div>
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+
+                            <input type="text" class="header__search-input" placeholder="nhap ten san pham"> 
+
+                            <!-- history-->
+                            <div class="header__search-history">
+                               <h3 class="history_heading">lich su tim kiem</h3> 
+                               <ul class="history-list">
+                                   <li class="history-item">
+                                       <a href="">kem duong da</a>
+                                   </li>
+                                   <li class="history-item">
+                                       <a href="">sua rua mat</a>
+                                   </li>
+                               </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-selection">
+                            <span class="selection-label">trong shop</span>
+                            <i class="selection-icon fas fa-check"></i>
+                            <ul class="option">
+                                <li class="option-item">
+                                    <span>trong shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="option-item">
+                                    <span>ngoai shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="search-btn-fix fas fa-search"></i>
+                        </button>
+                        
+                    </div>
+                    <!-- cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                        <div class="header__cart-list header__cart--nocart">
+                            <img src="./access/img/tải xuống.png" alt="chua co gio hang" class="header__cart--nocart-img">
+                        </div>
+                        </div>
+                        
+                    
+
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <div class="app_container">
+            <div class="grid">
+                <div class="grid__row app_content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category_heading"><i class="category_heading-icon fas fa-list"></i>
+                                Danh mục</h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item-active">
+                                    <a href="#" class="category-item_link">Đồng hồ</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item_link">Điện thoại</a>
+                                </li><li class="category-item">
+                                    <a href="#" class="category-item_link">Máy tính</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter_laber">sắp xếp theo</span>
+                            <button class="home-filter_btn btn">phổ biến </button>
+                            <button class="home-filter_btn btn btn--primary">bán chạy</button>
+                            <button class="home-filter_btn btn">mới nhất </button>
+                            <div class="select-input">
+                                <span class="select-input_label">giá</span>
+                                <i class="fas fa-chevron-down"></i>
+                                <ul class="select-input_list">
+                                    <li class="select-input_item">
+                                        <a href="" class="select-input_link">giá thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input_item">
+                                        
+                                        <a href="" class="select-input_link">giá cao đến thấp</a>
+                                    </li>
+                                   
+                                </ul>
+                            </div>
+                            <div class="home-filter_page">
+                                <span class="home-filter_page-num">
+                                    <span class="home-filter_pagecurrent">1</span>/14
+                                </span>
+                                <div class="home-filter_pagecontrol">
+                                    <a href="" class="home-filter_page-btn"><i class="home-filter_page-icon fas fa-chevron-left home-filter_page-btn-disable"></i></a>
+                                    <a href="" class="home-filter_page-btn"><i class="home-filter_page-icon fas fa-chevron-right "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-product">
+                            <!-- grid-row-column -->
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(https://images-fe.ssl-images-amazon.com/images/G/09/HLCX/PJEYE/FamilyStripe/202009AMZ_FamilyStripe_Series_6_GPS_Cellular._CB403908966_.png);"></div>
+                                        <h4 class="home-product-item_name">Apple Watch Series 4 GPS 44mm viền nhôm dây cao su 
+                                            
+                                        </h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">45000¥</span>
+                                            <span class="home-product-item_price-current">29999¥</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_heart home-product-item_heart--liked ">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+                                            <div class="home-product-item_star">
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">apple</span>
+                                            <span class="home-product-item_origin-name">japan</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fas fa-check"></i>
+                                            yêu thích
+                                        </div>
+                                        <div class="home-product-item_saleoff">
+                                            <span class="home-product-item_percent">10%</span>
+                                            <span class="home-product-item_layble">GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(https://images-fe.ssl-images-amazon.com/images/G/09/HLCX/PJEYE/FamilyStripe/202009AMZ_FamilyStripe_Series_6_GPS_Cellular._CB403908966_.png);"></div>
+                                        <h4 class="home-product-item_name">Apple Watch Series 4 GPS 44mm viền nhôm dây cao su 
+                                            
+                                        </h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">45000¥</span>
+                                            <span class="home-product-item_price-current">29999¥</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_heart home-product-item_heart--liked ">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+                                            <div class="home-product-item_star">
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">apple</span>
+                                            <span class="home-product-item_origin-name">japan</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fas fa-check"></i>
+                                            yêu thích
+                                        </div>
+                                        <div class="home-product-item_saleoff">
+                                            <span class="home-product-item_percent">10%</span>
+                                            <span class="home-product-item_layble">GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(https://images-fe.ssl-images-amazon.com/images/G/09/HLCX/PJEYE/FamilyStripe/202009AMZ_FamilyStripe_Series_6_GPS_Cellular._CB403908966_.png);"></div>
+                                        <h4 class="home-product-item_name">Apple Watch Series 4 GPS 44mm viền nhôm dây cao su 
+                                            
+                                        </h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">45000¥</span>
+                                            <span class="home-product-item_price-current">29999¥</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_heart home-product-item_heart--liked ">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+                                            <div class="home-product-item_star">
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">apple</span>
+                                            <span class="home-product-item_origin-name">japan</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fas fa-check"></i>
+                                            yêu thích
+                                        </div>
+                                        <div class="home-product-item_saleoff">
+                                            <span class="home-product-item_percent">10%</span>
+                                            <span class="home-product-item_layble">GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(https://images-fe.ssl-images-amazon.com/images/G/09/HLCX/PJEYE/FamilyStripe/202009AMZ_FamilyStripe_Series_6_GPS_Cellular._CB403908966_.png);"></div>
+                                        <h4 class="home-product-item_name">Apple Watch Series 4 GPS 44mm viền nhôm dây cao su 
+                                            
+                                        </h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">45000¥</span>
+                                            <span class="home-product-item_price-current">29999¥</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_heart home-product-item_heart--liked ">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+                                            <div class="home-product-item_star">
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">apple</span>
+                                            <span class="home-product-item_origin-name">japan</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fas fa-check"></i>
+                                            yêu thích
+                                        </div>
+                                        <div class="home-product-item_saleoff">
+                                            <span class="home-product-item_percent">10%</span>
+                                            <span class="home-product-item_layble">GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(https://images-fe.ssl-images-amazon.com/images/G/09/HLCX/PJEYE/FamilyStripe/202009AMZ_FamilyStripe_Series_6_GPS_Cellular._CB403908966_.png);"></div>
+                                        <h4 class="home-product-item_name">Apple Watch Series 4 GPS 44mm viền nhôm dây cao su 
+                                            
+                                        </h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">45000¥</span>
+                                            <span class="home-product-item_price-current">29999¥</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_heart home-product-item_heart--liked ">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+                                            <div class="home-product-item_star">
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">apple</span>
+                                            <span class="home-product-item_origin-name">japan</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fas fa-check"></i>
+                                            yêu thích
+                                        </div>
+                                        <div class="home-product-item_saleoff">
+                                            <span class="home-product-item_percent">10%</span>
+                                            <span class="home-product-item_layble">GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(https://images-fe.ssl-images-amazon.com/images/G/09/HLCX/PJEYE/FamilyStripe/202009AMZ_FamilyStripe_Series_6_GPS_Cellular._CB403908966_.png);"></div>
+                                        <h4 class="home-product-item_name">Apple Watch Series 4 GPS 44mm viền nhôm dây cao su 
+                                            
+                                        </h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">45000¥</span>
+                                            <span class="home-product-item_price-current">29999¥</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_heart home-product-item_heart--liked ">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+                                            <div class="home-product-item_star">
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">apple</span>
+                                            <span class="home-product-item_origin-name">japan</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fas fa-check"></i>
+                                            yêu thích
+                                        </div>
+                                        <div class="home-product-item_saleoff">
+                                            <span class="home-product-item_percent">10%</span>
+                                            <span class="home-product-item_layble">GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(https://images-fe.ssl-images-amazon.com/images/G/09/HLCX/PJEYE/FamilyStripe/202009AMZ_FamilyStripe_Series_6_GPS_Cellular._CB403908966_.png);"></div>
+                                        <h4 class="home-product-item_name">Apple Watch Series 4 GPS 44mm viền nhôm dây cao su 
+                                            
+                                        </h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">45000¥</span>
+                                            <span class="home-product-item_price-current">29999¥</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_heart home-product-item_heart--liked ">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+                                            <div class="home-product-item_star">
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">apple</span>
+                                            <span class="home-product-item_origin-name">japan</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fas fa-check"></i>
+                                            yêu thích
+                                        </div>
+                                        <div class="home-product-item_saleoff">
+                                            <span class="home-product-item_percent">10%</span>
+                                            <span class="home-product-item_layble">GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(https://images-fe.ssl-images-amazon.com/images/G/09/HLCX/PJEYE/FamilyStripe/202009AMZ_FamilyStripe_Series_6_GPS_Cellular._CB403908966_.png);"></div>
+                                        <h4 class="home-product-item_name">Apple Watch Series 4 GPS 44mm viền nhôm dây cao su 
+                                            
+                                        </h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">45000¥</span>
+                                            <span class="home-product-item_price-current">29999¥</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_heart home-product-item_heart--liked ">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+                                            <div class="home-product-item_star">
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">apple</span>
+                                            <span class="home-product-item_origin-name">japan</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fas fa-check"></i>
+                                            yêu thích
+                                        </div>
+                                        <div class="home-product-item_saleoff">
+                                            <span class="home-product-item_percent">10%</span>
+                                            <span class="home-product-item_layble">GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(https://images-fe.ssl-images-amazon.com/images/G/09/HLCX/PJEYE/FamilyStripe/202009AMZ_FamilyStripe_Series_6_GPS_Cellular._CB403908966_.png);"></div>
+                                        <h4 class="home-product-item_name">Apple Watch Series 4 GPS 44mm viền nhôm dây cao su 
+                                            
+                                        </h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">45000¥</span>
+                                            <span class="home-product-item_price-current">29999¥</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_heart home-product-item_heart--liked ">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+                                            <div class="home-product-item_star">
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">apple</span>
+                                            <span class="home-product-item_origin-name">japan</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fas fa-check"></i>
+                                            yêu thích
+                                        </div>
+                                        <div class="home-product-item_saleoff">
+                                            <span class="home-product-item_percent">10%</span>
+                                            <span class="home-product-item_layble">GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(https://images-fe.ssl-images-amazon.com/images/G/09/HLCX/PJEYE/FamilyStripe/202009AMZ_FamilyStripe_Series_6_GPS_Cellular._CB403908966_.png);"></div>
+                                        <h4 class="home-product-item_name">Apple Watch Series 4 GPS 44mm viền nhôm dây cao su 
+                                            
+                                        </h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">45000¥</span>
+                                            <span class="home-product-item_price-current">29999¥</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_heart home-product-item_heart--liked ">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+                                            <div class="home-product-item_star">
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="home-product-item_star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">apple</span>
+                                            <span class="home-product-item_origin-name">japan</span>
+                                        </div>
+                                        <div class="home-product-item_favourite">
+                                            <i class="fas fa-check"></i>
+                                            yêu thích
+                                        </div>
+                                        <div class="home-product-item_saleoff">
+                                            <span class="home-product-item_percent">10%</span>
+                                            <span class="home-product-item_layble">GIẢM
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+
+        </footer>
+    </div>
+    <!--modal-->
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <div class="modal__inner">
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form_header">
+                            <h3 class="header-heading">dang ki</h3>
+                            <span class="header-switch-btn">dang nhap</span>
+                            
+                        </div>
+                        <div class="auth-form_form">
+                            <div class="auth-form_group">
+                                <input type="text" class="auth-form_input" placeholder="email or phone">
+                            </div>
+                            <div class="auth-form_group">
+                                <input type="password" class="auth-form_input" placeholder="password">
+                            </div>
+                            <div class="auth-form_group">
+                                <input type="password" class="auth-form_input" placeholder="nhap lai password">
+                            </div>
+                        </div>
+                        <div class="auth-form_aside">
+                            <p class="auth-form_policy">bạn đã đồng ý với chúng tôi về
+                                <a href="" class="policy-link">dieu khaon dich vu </a> &
+                                <a href="" class="policy-link"> chinh sach bao mat</a>                            
+                            </p>
+                        </div>
+                        <div class="auth-form_controls">
+                            <button class="btn controls-back">tro lai</button>
+                            <button class="btn btn--primary">dang ki</button>
+    
+                        </div>
+                    </div>
+                    <div class="auth-form__socials">
+                        <a href="" class="socials--facebook btn btn-sizes btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                            <span class="socials-icon-fix">ket noi voi facebook</span></a>
+                        <a href="" class="socials--google btn btn-sizes btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-google"></i>
+                            <span class="socials-icon-fix">ket noi voi google</span></a>    
+                    
+                            
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    
+</body>
+</html>
